@@ -48,3 +48,4 @@ function logout(){
 
 return <AuthContext.Provider value={{signUp, user, logout, login}}>{children}</AuthContext.Provider>
 }
+
